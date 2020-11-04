@@ -17,9 +17,11 @@ namespace TasksCSharp1
             Console.WriteLine("Лет: " + Day / year);
             Day = Day % year;
 
+            // Вычислим и выведем количество месяцев, сохранив остаток
             Console.WriteLine("Месяцев: " + Day / month);
             Day = Day % month;
 
+            // Выведем оставшееся количество дней 
             Console.WriteLine("Дней: " + Day);
 
             Console.ReadKey();
